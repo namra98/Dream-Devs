@@ -1,0 +1,359 @@
+body, html {
+    height: 100%;
+    background: #333333	;
+  
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("images/arnold.jpg");
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   padding: 0;
+    margin: 0;
+    transform: scale(1.1);
+    background-attachment: fixed;
+
+}
+
+.h {
+    font-size: 60px;
+    color: #ffe5e5;
+    text-shadow: 0 0 50px black;
+}
+
+#butt {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    border-radius: 5000px !important;
+    
+}
+
+#ft {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-weight: bolder;
+}
+
+#st {
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    margin: 0 auto;
+    
+}
+
+#gym {
+    background-image: url(images/gym.gif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+#nv {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    height: 10%;
+    width: 100%;
+}
+
+#scrl {
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 20px  black;
+    font-weight: bolder;
+    position: absolute;
+    left: 45%;
+}
+
+#bmi {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 35%;
+    font-size: 20px;
+}
+
+#bp {
+    height: 45px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    left: 4.5%;
+    font-size: 35px;
+}
+
+.solution {
+    height: 100%;
+    width: 100%;
+    background: url('images/jeetu.png');
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#check {
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+      text-shadow: 0 0 200px yellow; 
+  
+
+}
+
+hero-text {
+    margin: 0;
+}
+
+#nv {
+    width: 100%;
+    height: 0.02%;
+    padding: 35px;
+    opacity: 0.7;
+    background-color: black; 
+    position: fixed;
+    top: 0;
+}
+#nav.affix{
+    top:0;
+    left:0;
+    right:0;
+}
+
+#result1 {
+    width: 50%;
+    height: 90%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    left: 25%;
+    padding: 10px;
+    display: none;
+    border-radius: 5%;
+ 
+    color: white;
+    font-weight: bold;
+    z-index: 100px;
+
+}
+
+#result2 {
+    width: 50%;
+    height: 80%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    padding: 10px;
+    display: none;
+    border-radius: 5%;
+ 
+    color: white;
+    font-weight: bold;
+    z-index: 100px;
+
+}
+
+.liti {
+    width: 30px;
+    height: 10px;
+    background: red;
+    position: relative;
+    animation: myfirst 0.3s infinite;
+    animation-direction: alternate;
+    transform: rotate(45deg);
+
+}
+
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 20px; top: 20px;}
+    50%  {background: blue; left: 40px; top: 40px;}
+    75%  {background: green; left: 60px; top: 60px;}
+    100% {background: red; left: 80px; top: 80px;}
+}
+
+
+#result3 {
+    width: 50%;
+    height: 60%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    padding: 10px;
+    display: none;
+    border-radius: 5%;
+ 
+    color: white;
+    font-weight: bold;
+    z-index: 100px;
+
+}
+
+
+
+    
+#uw {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sec {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: url('images/jeetu.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+#mango {
+   
+    width: 50%;
+    height: 70%;
+    
+    background: yellow;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    padding: 20px;
+    line-height: 30px;
+    border-radius: 5%;
+ 
+    color: white;
+    font-weight: bold;
+     background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+
+
+}
+
+#err {
+   
+    width: 50%;
+    height: 40%;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    left: 25%;
+    padding: 20px;
+    line-height: 30px;
+    border-radius: 5%;
+ 
+    color: white;
+     background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+
+
+}
+
+#letkk {
+    height: 80px;
+    width: 780px;
+    background: yellow;
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    top: 15%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    color: white;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.feed {
+    height: 100%;
+    width: 100%;
+    background: url('images/moreinfo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   padding: 0;
+    margin: 0;
+}
+
+#fed {
+    position: relative;
+    top: 10%;
+    text-align: center;
+    height: 200px;
+    width: 780px;
+    background: yellow;
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    top: 15%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    color: white;
+    margin: 0 auto;
+}
+
+#conus {
+     position: relative;
+    top: 10%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0 ,0 );
+    background: rgba(0, 0 ,0 ,0.7);
+    color: white;
+    margin: 0 auto;
+    background: url('contact1.jpg');
+}
+
+#asdfg {
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+    background: #ff0000;
+    height: 2%;
+    
+}
+
+.backcolor {
+    height: 120%;
+    width: 100%;
+}
+
+

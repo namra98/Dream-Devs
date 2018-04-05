@@ -1,0 +1,15 @@
+.box {
+    height: 50px;
+    width: 50px;
+    background: blue;
+    text-align: center;
+    
+}
+
+.box:hover {
+    background: lightblue;
+    border-radius: 100%;
+    transition-duration: 5s;
+    
+    
+}

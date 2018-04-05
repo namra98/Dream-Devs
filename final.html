@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BMI Calculator</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="final.css" rel="stylesheet">
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="scroll.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="Semantic-UI-CSS-master/semantic.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="animatescroll.js-master/animatescroll.js"></script>
+    <script src="final.js"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link href="hover-min.css" rel="stylesheet">
+    <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+    <link href="sweetalert-master/dist/sweetalert.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="About_us.css">
+</head>
+
+<body>
+    <div class="bg" id="b"></div>
+    <div id="asdfg">
+        <div class="container teal borderYtoX " id="nv">
+            <a href="#b"onclick="$('#b').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});">Home</a>
+             <a href="#ab"onclick="$('#ab').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});">What is B.M.I ?</a>
+
+            <a href="#gym"onclick="$('#gym').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});">B.M.I Counter</a>
+
+             <a href="#1st"onclick="$('#1st').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});">About Us</a>
+            
+             <a href="#conus"onclick="$('#conus').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});">Contact Us</a>
+        </div>
+    </div>
+    <div class="hero-text">
+        <div id="ft" class="h">WHAT'S YOUR <span style="color: #ff1a1a; " class="hvr-buzz-out">MIND</span> BELIVES </div><br><br>
+        <div id="st" class="h">YES YOU <span style="color: #ff1a1a; " class="hvr-buzz-out">CAN</span> DO IT..</div>
+        <section id="section05" class="demo">
+            <a href="#ab" id="scrl" onclick="$('#ab').animatescroll({scrollSpeed:1500, easing:'easeOutBounce'});"><span></span>Explore</a>
+        </section>
+    </div>
+
+    <div class="sec" id="ab">
+        <div style="font-size: 50px; text-align:center; color:white; font-weight: bold; position: relative; top:10%; " id="mango">What is <span style="color: #ff1a1a; " class="hvr-buzz-out">B.M.I ? </span><br><br><span style="font-size: 30px; "><br>BMI is used as a screening tool to indicate whether a person is underweight, overweight, obese or a healthy weight for their height.<br>If a person's BMI is out of the healthy BMI range, their health risks may increase significantly.<br>
+
+BMI values are age-independent and the same for both sexes.<br>
+        </span>
+        </div>
+    </div>
+
+
+    <div id="gym">
+        <div id="letkk" style="text-align: center;"><span id="check" style="position: relative; text-shadow: 0 0 200px white; padding: 40px; border-radius: 10%;" class="ck">Let's check your <span style="color: #ff1a1a; " class="hvr-buzz-out">Fitness...</span></span>
+        </div><br><br><br><br><br><br><br><br><br>
+        <span id="bmi">
+       
+        <div class="ui right labeled input" style="position: relative; bottom: -50%;">
+            <input type="text" placeholder="Enter weight.." id="ip1">
+            <div class="ui basic label">
+                kg
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="ui right labeled input">
+            <input type="text" placeholder="Enter height.." id="ip2">
+            <div class="ui basic label">
+                m
+            </div>
+        </div>
+        <br><br><br><br>
+        <a class="hvr-shutter-out-horizontal" id="bp" href="#sol" onclick="return cal()">Check</a>
+
+        </span>
+    </div>
+
+    <div class="solution" id="sol">
+        <div style="font-size: 50px; text-align: center; color: white; position:relative; top:30%; line-height: 50px" id="err">Please add your height and weight into B.M.I calculator to check your B.M.I(Body Mass Index)...</div>
+
+        <div id="result1"><br>You are <span style="color: #ffff00;">UNDER WEIGHTED...</span><br><br>
+            <span><br>Here is your suggested<br><br> diet plan...</span>
+            <br><br>
+            <span id="uw">
+            In order to gain weight, you will have to eat more calories. <br>
+You will need to include regular exercise and strength training into your lifestyle in order to prevent gaining too much weight as fat.<br> 
+And, as I mentioned, those extra calories should come mainly from additional carbohydrate.<br>
+To start, set up a realistic goal weight for yourself. <br>
+You may need to resign yourself to a less than (what you may consider) an ideal weight. <br>
+Make good nutrition your priority, and weight gain the second.<br>
+It is best to gain weight slowly and steadily. <br>
+This will help to ensure that your weight gain is in the form of lean body mass and not excessive fat. <br>
+Don't try to gain more than 1/2 pound a week.<br>
+              For more information visit <a href="http://www.stylecraze.com/articles/4-simple-diet-tips-and-a-diet-chart-to-gain-weight/" target="_blank">this</a>&nbsp; site...
+
+            </span>
+        </div>
+
+        <div id="result2"><br>You are <span style="color: #ff3333;">OVER WEIGHTED...</span><br><br>
+            <span><br>Here is your suggested<br><br> diet plan...</span>
+            <br><br><br>
+            <span id="uw">
+            
+                Your body weight is controlled by the number of calories you eat and the number of calories you use each day.<br> 
+                So, if you consume fewer calories than you burn, you will lose weight. <br>
+                You can do this by becoming more physically active or by eating less.<br>
+                You didn't put on extra weight overnight so it is equally unrealistic to take it off quickly. <br>
+                Record a goal that you can reach in one month that is 4 to 8 pounds less than you weigh now. <br>
+                Set a goal you know you can achieve.<br>
+              For more information visit <a href="http://www.stylecraze.com/articles/fiber-foods-for-weight-loss/" target="_blank">this</a>&nbsp; site...
+
+            </span>
+        </div>
+
+        <div id="result3"><br>You are <span style="color: 	 #00b300;">HEALTHY...</span><br><br>
+            <span><br>Here is your suggested<br><br> diet plan...</span>
+            <br><br><br>
+            <span id="uw">
+           
+                Having Healthy or Normal weight BMI is always desirable for any one.<br>
+                So, to maintain healthy BMI you should it you need 2,361 Calories/day to maintain your weight and regularly hit the gym.<br>
+                Maintain your weight and Stay Healthy !! Stay Smart !!
+                <br>
+              For more information visit <a href="http://www.34-menopause-symptoms.com/weight-gain/articles/a-meal-plan-to-maint" target="_blank">this</a>&nbsp; site...
+
+            </span>
+        </div>
+    </div>
+    <!--  <div class="feed">
+        <div class="h" id="fed">Our <span style="color: #ff1a1a; " class="hvr-buzz-out">Goal</span><br><br>
+              <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+
+
+
+        </div>
+    </div>-->
+    <div class="backcolor">
+        <div style="font-size: 40px; color: white; text-align: center; font-weight: bolder; position: relative; top: 15%;"> About <span style="color: #ff1a1a; " class="hvr-buzz-out">Us</span></div>
+
+        <div id="1st">
+            <br> <br>
+            <br>
+            <br>
+            <br>
+            <div class="Pankil col-md-6">
+                <img src="pankil.jpg" alt="Pankil Panchal's Image" height="100" width="100"><br><br>
+                <span> Pankil <span style="color: #ff1a1a; font-weight: bold" class="hvr-buzz-out">Panchal</span></span><br><br>
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta1.jpg" alt="insta link" style="height:20px; width:20px;"></a>
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta2.png" alt="insta link" style="height:20px; width:20px; "></a>
+
+                <a href="mailto:panch.pankil99@gmail.com"><img src="insta3.png" alt="insta link" style="height:20px; width:20px;"></a>
+
+            </div>
+            <div class="Havya col-md-6">
+                <img class="profile" src="havy3.png" alt="Havya Panchal's Image" height="100" width="100"><br><br>
+                <span> Havya <span style="color: #ff1a1a;font-weight: bold " class="hvr-buzz-out">Panchal</span></span><br><br>
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta1.jpg" alt="insta link" style="height:20px; width:20px;"></a>
+
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta2.png" alt="insta link" style="height:20px; width:20px; "></a>
+
+                <a href="mailto:hkpanchal1998@gmail.com"><img src="insta3.png" alt="insta link" style="height:20px; width:20px;"></a>
+
+            </div>
+        </div>
+
+
+        <div class="threeperson">
+            <br>
+            <br>
+            <br>
+
+            <div class="Jaimin">
+                <img src="jay.jpg" alt="Jaimin Chaudhari's Image" height="100" width="100"><br><br>
+                <span>Jaimin <span style="color: #ff1a1a; font-weight: bold" class="hvr-buzz-out">Chaudhari</span></span><br><br>
+
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta1.jpg" alt="insta link" style="height:20px; width:20px;"></a>
+
+                <a href="http://www.facebook.com/jaimin.chaudhary.370"><img src="insta2.png" alt="insta link" style="height:20px; width:20px; "></a>
+
+                <a href="mailto:jaiminchaudhary42@gmail.com"><img src="insta3.png" alt="insta link" style="height:20px; width:20px;"></a>
+                <br>
+
+            </div>
+            <div class="Jeet">
+                <img src="jeet.jpg" alt="Jeet patel's Image" height="100" width="100"><br><br>
+                <span>Jeet <span style="color: #ff1a1a; font-weight: bold" class="hvr-buzz-out">Patel</span></span><br><br>
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta1.jpg" alt="insta link" style="height:20px; width:20px;"></a>
+
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta2.png" alt="insta link" style="height:20px; width:20px; "></a>
+
+                <a href="mailto:jeet786sap613@gmail.com"><img src="insta3.png" alt="insta link" style="height:20px; width:20px;"></a>
+                <br>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <center>
+            <div class="Namra">
+                <img class="profile" src="namra.jpg" alt="Namara Prajapati's Image" height="100" width="100"><br><br>
+                <span> Namra <span style="color: #ff1a1a; font-weight: bold" class="hvr-buzz-out">Prajapati</span></span><br><br>
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta1.jpg" alt="insta link" style="height:20px; width:20px;"></a>
+
+                <a href="https://www.youtube.com/channel/UCAzzhCYOehskSaCytzzr_ug"><img src="insta2.png" alt="insta link" style="height:20px; width:20px; "></a>
+
+                <a href="mailto:nbrprajapati@gmail.com"><img src="insta3.png" alt="insta link" style="height:20px; width:20px;"></a>
+
+            </div>
+         
+            
+        </center>
+        <div id="conus" style="position: relative; height: 100%;">
+            <div style="font-size: 40px; color: white; text-align: center; font-weight: bold; position: relative; top: 15%;"> Contact <span style="color: #ff1a1a; " class="hvr-buzz-out">Us</span></div> <br><br> <div style="position: relative; top: 15%; ">Drop a mail <a href="mailto:dabackbenchers2k16@gmail.com">dabackbenchers2k16@gmail.com</a></div><br>
+            <div style="position: relative; top: 45%; font-size: 40px">We all need people who will give us feedback.<br><br>That's how we improve...<br><br><a href="http://dreamdevs2k17.000webhostapp.com/" target="_blank">Share your <span style="color: #ff1a1a; " class="hvr-buzz-out">feedback</span> here...</a></div>
+                </div>
+        
+    </div>
+
+
+</body>
+
+</html>

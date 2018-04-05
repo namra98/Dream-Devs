@@ -1,0 +1,22 @@
+body {
+    background: lightblue;
+    background-image: url('../images/img6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+#first {
+    font-size: 80px;
+    color: aqua;
+    margin: 500px;
+}
+
+p.normal {
+    font-style: italic;
+    font-stretch: extra-condensed;
+}
